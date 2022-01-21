@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda E-commerce</title>
+
+    <!-- Link Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+
+    <!-- ========== Header Section Start ========== -->
+    <header>
+
+        <!-- Nav Bar Start -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="./Images/logo/logo.png" alt="">
+                </a>
+
+                <!-- Toggler Icon -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Nav Item -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item fw-bold">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a class="nav-link" href="#">Product</a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        <!-- Nav Bar End -->
+
+        <!-- Banner Start -->
+        <div class="container my-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active  rounded-3" style="background-color: #FEEAE9;">
+                        <div class="row">
+                            <div class="d-md-flex align-items-center justify-content-between p-5">
+                                <div class="col-lg-6">
+                                    <h2 class="display-4 fw-bold">Mi LED TV 4A PRO 32</h2>
+                                    <p class="fs-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                                    <p class="fs-2 fw-bold pink">$1298</p>
+                                    <button class="btn pink_bg btn-lg text-white">Buy Now</button>
+                                </div>
+                                <div class="col-lg-6">
+                                    <img src="./Images/banner-images/headphone.png" class="d-block w-100">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item rounded-3" style="background-color: #FEEAE9;">
+                        <div class="row">
+                            <div class="d-md-flex align-items-center justify-content-between p-5">
+                                <div class="col-lg-6">
+                                    <h2 class="display-4 fw-bold">Mi LED TV 4A PRO 32</h2>
+                                    <p  class="fs-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                                    <p class="fs-2 fw-bold pink">$1298</p>
+                                    <button class="btn pink_bg btn-lg text-white">Buy Now</button>
+                                </div>
+                                <div class="col-lg-6">
+                                    <img src="./Images/banner-images/tv.png" class="d-block w-100">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="carousel-item rounded-3" style="background-color: #FEEAE9;">
+                        <div class="row">
+                            <div class="d-md-flex align-items-center justify-content-between p-5">
+                                <div class="col-lg-6">
+                                    <h2 class="display-4 fw-bold">Mi LED TV 4A PRO 32</h2>
+                                    <p  class="fs-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                                    <p class="fs-2 fw-bold pink">$1298</p>
+                                    <button class="btn pink_bg btn-lg text-white">Buy Now</button>
+                                </div>
+                                <div class="col-lg-6">
+                                    <img src="./Images/banner-images/xbox.png" class="d-block w-100">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Side Button -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+        </div>
+        <!-- Banner End -->
+
+    </header>
+    <!-- ========== Header Section End ========== -->
+
+
+    <main>
+        <!-- ========== Categories Section Start ========== -->
+        <section id="categories" class="mb-5 container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class=" d-flex bg-warning p-4 align-items-center justify-content-between rounded-3">
+                        <h2 class="display-5 fw-bold text-white">Watch</h2>
+                        <img src="./Images/categories/watch.png" alt="" style="width: 100px;">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class=" d-flex pink_bg p-4 align-items-center justify-content-between rounded-3">
+                        <h2 class="display-5 fw-bold text-white">Bag</h2>
+                        <img src="./Images/categories/bag.png" alt="" style="width: 100px;">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class=" d-flex bg-primary p-4 align-items-center justify-content-between rounded-3">
+                        <h2 class="display-5 fw-bold text-white">Shoes</h2>
+                        <img src="./Images/categories/shoes.png" alt="" style="width: 100px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========== Categories Section End ========== -->
+
+        <!-- ========== Shoes Section Start ========== -->
+        <section id="shoes" class="py-5 bg_gray">
+            <div class="container">
+            <div class="row g-4 container">
+                <div class="d-flex align-items-center justify-content-between">
+                    <h1 class="fw-bold">Shoes</h1>
+                    <h3 class="text-warning">See More</h3>
+                </div>
+                <!-- Shoe 1 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card border-0 shadow-lg py-3 text-center">
+                        <img src="./Images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3 fw-bold">Reebok Dart</h5>
+                            <p class="card-text fs-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                            <p class="fs-4 fw-bold">$1289</p>
+                        </div>
+                        <div class="card-footer border-0 bg-white">
+                            <button class="btn btn-primary btn-dark text-white"><span class="fs-4 fw-light">Buy Now</span></button>
+                        </div>
+                    </div>                    
+                </div>
+
+                <!-- Shoe 1 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                     <div class="card border-0 shadow-lg py-3 text-center">
+                        <img src="./Images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3 fw-bold">Reebok Pump</h5>
+                            <p class="card-text fs-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                            <p class="fs-4 fw-bold">$1289</p>
+                        </div>
+                        <div class="card-footer border-0 bg-white">
+                            <button class="btn btn-primary btn-dark text-white"><span class="fs-4 fw-light">Buy Now</span></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Shoe 1 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                     <div class="card border-0 shadow-lg py-3 text-center">
+                        <img src="./Images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3 fw-bold">Reebok All Terrain</h5>
+                            <p class="card-text fs-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                            <p class="fs-4 fw-bold">$1289</p>
+                        </div>
+                        <div class="card-footer border-0 bg-white">
+                            <button class="btn btn-primary btn-dark text-white"><span class="fs-4 fw-light">Buy Now</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- ========== Shoes Section End ========== -->
+
+        <!-- ========== Backpack Section Start ========== -->
+        <section id="shoes" class="py-5 bg_gray">
+            <div class="container">
+            <div class="row g-4">
+                <div class="d-flex align-items-center justify-content-between">
+                    <h1 class="fw-bold">Bags</h1>
+                    <h3 class="text-warning">See More</h3>
+                </div>
+                <!-- Bag 1 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card border-0 shadow-lg py-3 text-center">
+                        <img src="./Images/bags/bag-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3 fw-bold">Ison Backpack</h5>
+                            <p class="card-text fs-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                            <p class="fs-4 fw-bold">$1289</p>
+                        </div>
+                        <div class="card-footer border-0 bg-white">
+                            <button class="btn btn-primary btn-dark text-white"><span class="fs-4 fw-light">Buy Now</span></button>
+                        </div>
+                    </div>                    
+                </div>
+
+                <!-- Bag 1 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                     <div class="card border-0 shadow-lg py-3 text-center">
+                        <img src="./Images/bags/bag-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3 fw-bold">Biaowang Backpack</h5>
+                            <p class="card-text fs-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                            <p class="fs-4 fw-bold">$1289</p>
+                        </div>
+                        <div class="card-footer border-0 bg-white">
+                            <button class="btn btn-primary btn-dark text-white"><span class="fs-4 fw-light">Buy Now</span></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bag 1 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                     <div class="card border-0 shadow-lg py-3 text-center">
+                        <img src="./Images/bags/bag-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3 fw-bold">Dxyizu WS54 Smart</h5>
+                            <p class="card-text fs-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                            <p class="fs-4 fw-bold">$1289</p>
+                        </div>
+                        <div class="card-footer border-0 bg-white">
+                            <button class="btn btn-primary btn-dark text-white"><span class="fs-4 fw-light">Buy Now</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- ========== Backpack Section End ========== -->
+
+        <!-- ========== Newslatter Section Start ========== -->
+        <section id="newslatter" class="newslatter container py-5" >
+            <div class="d-flex align-items-center justify-content-center p-5 rounded-3" style="background-color: #FFF2F1;">
+                <div class="text-center">
+                    <h3 class="fw-bold display-5">Let's Stay in Touch</h3>
+                    <p class="fs-5">Get updates on sales specials and more</p>
+                    <div class="input-group input-group-lg mb-3">
+                        <input type="text" class="form-control p-3" placeholder="Your E-mail" aria-describedby="button-addon2">
+                        <button class="btn btn-danger" type="button" id="button-addon2">Send</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========== Newslatter Section End ========== -->
+    </main>
+
+
+    <!-- ========== Footer Section Start ========== -->
+    <footer>
+
+    </footer>
+    <!-- ========== Footer Section End ========== -->
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
